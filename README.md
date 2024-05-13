@@ -20,4 +20,4 @@
 ## State machine
 ![image](https://github.com/Sbing-yuan/uart_trx/blob/main/image3.png)
 - write flow: target received 2 bytes. First byte is 7bit address + MSB:1. Second byte is data byte, data of this address will change according to these bytes.
-- read flow: target received 1 byte containing 7bit address + MSB:0. Transmitter will trigger to output data byte of according address.
+- read flow: target received 1 byte containing 7bit address + MSB:0. Transmitter will be triggered to output data byte of according address.
